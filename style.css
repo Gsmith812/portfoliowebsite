@@ -1,65 +1,72 @@
+/*sets the pages default box sizing to border-box style*/
 html {
   box-sizing: border-box;
 }
-
+/*changing header color and the amount of space around the elements inside*/
 header {
   background-color: #0E0E52;
   padding: 20px;
 }
-
+/*changed the font type, size, and color to make the heading larger and more impactful, also centered the text*/
 header h1 {
   font-family: Copperplate, 'Courier New', Courier, monospace;
   font-size: 52px;
   text-align: center;
   color: #B8B8B7;
 }
-
+/*changed the font type, size, and color to make the heading larger and more impactful, also centering the text*/
 header h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #B8B8B7;
   text-align: center;
   font-size: 22px;
 }
-
+/*changed the background color of the main semantic container and added some padding around the element*/
 main {
   background-color: #B8B8B7;
   padding: 20px;
 }
-
+/*set the margins to auto size with the size with the size of the screen and set the width of the dividers themselves to 50% of the screen length but will be centered*/
 div {
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
-
+/*set the image in a similar way as all the other divs, but less width so the image would center properly*/
+div.img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+/*set the width and height of the the image to scale 100% with the size of the screen and then changed the border radius to make it into an oval*/
 img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-
+/*changed the style of all h2 headings to the same color, font type, size, and aligned centered*/
 h2 {
   color: #0E0E52;
   text-align: center;
   font-family: Candara, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 28px;
 }
-
+/*changed the style of the paragraphs and lists to match the same font type, color, and size*/
 p, ul, ol {
   color: #4D7298;
   font-family: Candara, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
 }
-
+/*changed the thickness of the links so they will stand out within the text*/
 a{
   font-weight: 600;
 }
-
+/*changed the links colors with pseudo classes to dynamically change colors when specific actions are performed*/
 a:link {color: #2121C0;}
 a:visited{color: #121269;}
 a:hover{color: #F17300;}
 a:active{color: #DB2955;}
-
+/*changed the background color and style of text in the footer and added some padding around the element*/
 footer {
   background-color: #0E0E52;
   padding: 20px;
