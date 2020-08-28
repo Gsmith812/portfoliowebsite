@@ -1,2 +1,2 @@
 # portfoliowebsite
-My first edition of my portfolio webpage
+This is my first website designed for my personal portfolio!
